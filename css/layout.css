@@ -5,7 +5,7 @@ body{
 }
 
 .wrapper{
-  margin-top: 12.5%;
+  margin-top: 2.5%;
 }
 
 a{
@@ -21,6 +21,7 @@ nav{
 /*  border: 1px solid #000;
 */}
 
+
 nav ul{
   list-style: none;
   padding:0px;
@@ -32,8 +33,8 @@ nav ul li{
 
 .mainContainer{
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 .myName{
