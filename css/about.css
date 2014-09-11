@@ -76,13 +76,13 @@ header {
   font-weight: bold;
 }
 
-.image-container {
+/*.image-container {
   background-color: rgba(63, 154, 130, 0.2);
   width: 320px;
   height: 213px;
   /*display: inline-block;*/
-  float:left;
-}
+ /* float:left;
+}*/
 
 .main-box {
   height: 500px;
@@ -102,14 +102,29 @@ header {
   display: inline-block;
 }*/
 
-.interests img {
+/*.interests img {
   float: left;
   width: 319px;
   height: 213px;
+}*/
+
+/*.interests img:hover {
+  
+}*/
+
+.interestsTop {
+  height:50%;
+  width: 49%;
+  background-color: rgba(63, 154, 130, 0.2);
+  display: inline-block;
+
 }
 
-.interests img:hover {
-  
+.interestsBottom {
+  height: 50%;
+  width: 50%;
+  background-color: rgba(59, 89, 106, 0.2);
+  display: inline-block;
 }
 
 a {
