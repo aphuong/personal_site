@@ -1,5 +1,5 @@
 body{
-  font-family: Helvetica;
+  font-family: "Raleway", serif;
   font-size: 18px;
   color: #5A5A5A;
   background: url("../images/city.jpg") no-repeat center center fixed; 
@@ -46,9 +46,11 @@ nav ul li{
 .myName{
   padding-top: 20px;
   font-size: 40px;
-  /*font-family: use a google font?*/
 }
 
+.nycda {
+  width: 150px;
+}
 
 footer ul{
   list-style: none;
