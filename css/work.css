@@ -1,0 +1,130 @@
+body {
+  color: #5A5A5A;
+  width: 100%;
+  font-family: Helvetica;
+}
+
+header {
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 40px;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+img:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+ul {
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+  width: 25%;
+  color: grey;
+  margin:0px;
+  margin-right: 30px;
+}
+
+li:hover {
+  /*background-color: #00C78C;*/
+  color: #FFFFFF;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+.row {
+  text-align: center;
+}
+
+
+.description {
+  text-align: center;
+  font-size: 16px;
+  background-color: rgba(100, 100, 100, .1);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.first,
+.second, 
+.third,
+.fourth,
+.fifth,
+.sixth {
+  display: inline-block;
+  border: 1px solid rgba(100, 100, 100, .3);
+  border-radius: 4px;
+}
+
+
+.top {
+  background-color: #FCFFF5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+
+}
+.top a{
+  color: grey;
+}
+
+.bottom {
+  background-color: #DDD;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.home, .about, .work {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+
+.home a:hover, 
+.about a:hover,
+.work a:hover {
+  color: #00C78C;
+}
+
+.social {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.social a i {
+  width: 5%;
+  background-color: #00C78C;
+  color: #FFF;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  border-radius: 10px;
+}
+
+.social a i:hover {
+  background-color: #FCFFF5;
+  color: grey;
+}
+
+
+
+
+
