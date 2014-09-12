@@ -24,8 +24,8 @@ a {
   text-decoration: none;
 }
 
-
-.right img {
+.anhPic {
+  width: 75%;
   border-radius: 4px;
   padding-left: 90px;
 }
