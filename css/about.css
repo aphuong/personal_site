@@ -27,7 +27,7 @@ img:hover {
 }
 
 .intro {
-  margin: 30px;
+  margin: 50px;
   font-size: 20px;
 }
 
@@ -40,9 +40,13 @@ img:hover {
   display:inline-block;
 }
 
+/*.right img:hover {
+  border-radius: 80%;
+}*/
+
 .bioText {
   line-height: 20px;
-  margin: 30px;
+  margin: 50px;
 }
 
 .top {
@@ -99,6 +103,7 @@ img:hover {
 
 .interests img {
   width: 100%;
+  border-radius: 50%;
 }
 
 .interests ul {
