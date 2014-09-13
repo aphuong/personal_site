@@ -1,35 +1,10 @@
-body {
+a {
   color: #fff;
-  width: 100%;
-  font-family: "Raleway", serif;
-  background: url("../images/background.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-header {
-  font-size: 35px;
-  font-weight: bold;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-left: 40px;
-}
-
-.wrapper {
-  width: 100%;
 }
 
 img {
   width: 100%;
   border-radius: 4px;
-}
-
-img:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
 }
 
 ul {
@@ -45,19 +20,12 @@ li {
 }
 
 li:hover {
-  /*background-color: #00C78C;*/
-  color: #FFFFFF;
-}
-
-a {
-  text-decoration: none;
   color: #fff;
 }
 
 .row {
   text-align: center;
 }
-
 
 .description {
   text-align: center;
@@ -68,79 +36,10 @@ a {
 }
 
 
-.first,
-.second, 
-.third,
-.fourth,
-.fifth,
-.sixth {
+.work-item {
   display: inline-block;
   border: 1px solid rgba(100, 100, 100, .3);
   border-radius: 4px;
 }
-
-
-.first:hover,
-.second:hover, 
-.third:hover,
-.fourth:hover,
-.fifth:hover,
-.sixth:hover {
-  ;
-}
-
-
-.top {
-  background-color: #FCFFF5;
-  padding-top: 20px;
-  padding-bottom: 20px;
-
-
-}
-.top a{
-  color: grey;
-}
-
-.bottom {
-  background-color: #DDD;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.home, .about, .work, .contact {
-  display: inline-block;
-  width: 24%;
-  text-align: center;
-}
-
-.home a:hover, 
-.about a:hover,
-.work a:hover,
-.contact a:hover {
-  color: #00C78C;
-}
-
-.social {
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.social a i {
-  width: 5%;
-  background-color: #00C78C;
-  color: #FFF;
-  padding-bottom: 7px;
-  padding-top: 7px;
-  border-radius: 10px;
-}
-
-.social a i:hover {
-  background-color: #FCFFF5;
-  color: grey;
-}
-
-
-
 
 

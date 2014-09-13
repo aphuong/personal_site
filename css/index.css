@@ -1,5 +1,6 @@
 body{
   font-family: "Raleway", serif;
+  width: 100%;
   font-size: 18px;
   color: #5A5A5A;
   background: url("../images/city.jpg") no-repeat center center fixed; 
@@ -12,7 +13,7 @@ body{
 .wrapper{
   margin-top: 2.5%;
 }
-
+/*-----------------*/
 a{
   text-decoration: none;
   color: #5A5A5A;
